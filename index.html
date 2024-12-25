@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Astra Python AI Personal Voice Assistant</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/favicon.png" type="image/png">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="brand-logo">
+            <img src="images/Astra logo.png" alt="Logo">
+            <span>Astra</span>
+        </div>
+        <ul class="navbar-nav">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#demo">Working Demo</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="hero">
+        <div class="hero-content">
+            <h1>Welcome to Astra Python AI Voice Assistant</h1>
+            <p>Your Personal AI Assistant built using Python</p>
+            <a href="#demo" class="btn">See the Demo</a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="container">
+        <div class="section-title">
+            <h2>About Astra</h2>
+        </div>
+        <p>
+            Astra is a powerful AI personal voice assistant built with Python. It can help you with tasks, answer questions, control devices, and more. This project leverages the latest technologies in machine learning and natural language processing.
+        </p>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="container">
+        <div class="section-title">
+            <h2>Features</h2>
+        </div>
+        <div class="features-grid">
+            <div class="feature-card">
+                <img src="images/feature1.png" alt="Feature 1">
+                <h3>Voice Recognition</h3>
+                <p>Astra understands your commands and can execute them efficiently.</p>
+            </div>
+            <div class="feature-card">
+                <img src="images/feature2.png" alt="Feature 2">
+                <h3>Task Automation</h3>
+                <p>Set reminders, control devices, and automate tasks seamlessly.</p>
+            </div>
+            <div class="feature-card">
+                <img src="images/feature3.png" alt="Feature 3">
+                <h3>Smart Assistant</h3>
+                <p>Astra is intelligent, providing useful information and insights when needed.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Working Demo Section -->
+<section id="working-demo" class="working-demo-section">
+    <h2>Working Demo</h2>
+    <div class="demo-container">
+        <div class="demo-video">
+            <!-- You can embed a video demo or a live feature -->
+            <iframe src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="demo-description">
+            <h3>Try the AI Personal Voice Assistant</h3>
+            <p>Explore the features of our AI Personal Voice Assistant. Click below to see it in action!</p>
+            <button class="btn demo-btn">Launch Demo</button>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Contact Form Section -->
+<section id="contact" class="contact-section">
+    <div class="container">
+        <h2 class="section-title">Contact Us</h2>
+        <form action="contact-form-handler.php" method="POST" class="contact-form">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required placeholder="Your Name">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required placeholder="Your Email">
+            </div>
+
+            <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" required placeholder="Subject">
+            </div>
+
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required placeholder="Your Message" rows="5"></textarea>
+            </div>
+
+            <button type="submit" class="btn submit-btn">Submit</button>
+        </form>
+    </div>
+</section>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Astra AI. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
