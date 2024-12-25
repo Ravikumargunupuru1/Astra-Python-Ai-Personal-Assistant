@@ -298,6 +298,7 @@ footer {
 .demo-btn:hover {
     background-color: #c7373d; /* Darker theme color on hover */
 }
+
 html {
     scroll-behavior: smooth;
 }
