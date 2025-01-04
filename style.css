@@ -176,6 +176,7 @@ footer {
     font-weight: 300; /* Light font weight */
     letter-spacing: 0.5px; /* Add slight letter-spacing for readability */
 }
+
 /* Contact Section Styling */
 .contact-section {
     background-color: #222; /* Dark background for contrast */
@@ -199,6 +200,59 @@ footer {
     border-radius: 8px; /* Rounded corners */
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Subtle shadow around the form */
 }
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%; /* Full width of the form */
+    padding: 10px; /* Padding inside the fields */
+    margin-bottom: 20px; /* Space between fields */
+    border: 1px solid #444; /* Subtle border for the fields */
+    border-radius: 4px; /* Rounded corners */
+    background-color: #222; /* Dark background for the fields */
+    color: #fff; /* White text color */
+    font-size: 1rem; /* Standard font size */
+}
+
+.contact-form input[type="text"]:focus,
+.contact-form input[type="email"]:focus,
+.contact-form textarea:focus {
+    outline: none; /* Remove default outline */
+    border-color: var(--themeColor); /* Highlight border on focus */
+    box-shadow: 0 0 5px var(--themeColor); /* Add a glow effect */
+}
+
+.contact-form .submit-btn {
+    background-color: var(--themeColor); /* Use the theme color for the button */
+    color: #fff; /* White text color */
+    padding: 12px 20px; /* Button padding */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    font-size: 1rem; /* Standard font size */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transition */
+}
+
+.contact-form .submit-btn:hover {
+    background-color: #e65c50; /* Slightly darker shade for hover effect */
+    transform: translateY(-2px); /* Lift effect on hover */
+}
+
+.contact-form .submit-btn:active {
+    transform: translateY(0); /* Reset on click */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .contact-form {
+        padding: 20px; /* Reduce padding on smaller screens */
+    }
+
+    .contact-section h2 {
+        font-size: 2rem; /* Adjust title size */
+    }
+}
+
 
 /* Input and Textarea Styling */
 .contact-form input,
